@@ -1,0 +1,34 @@
+{
+  "tests": [
+    {
+      "name": "Sample",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "10\r\n3",
+      "output": "Please enter in two integers, on seperate lines, to divide.\r\n10/3 is 3 with a remainder of 1.\r\n",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "No Remainder",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "25\r\n5",
+      "output": "Please enter in two integers, on separate lines, to divide.\r\n25/5 is 5 with a remainder of 0.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    },
+    {
+      "name": "All remainder",
+      "setup": "javac Main.java",
+      "run": "java Main",
+      "input": "2\r\n10",
+      "output": "Please enter in two integers, on separate lines, to divide.\r\n2/10 is 0 with a remainder of 2.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 2
+    }
+  ]
+}
